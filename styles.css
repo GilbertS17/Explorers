@@ -1,10 +1,14 @@
+/* #35A8E0 */
+/* #F9A737 */
+/* #FFFFFF */
+
 body,
 html {
   overflow-x: hidden;
 }
 
 .main {
-  background-color: #2daa9e;
+  background-color: #35a8e0;
   color: white;
   font-size: 16;
   margin: 0px auto;
@@ -54,7 +58,7 @@ html {
 
 .title:hover {
   transition: 250ms;
-  color: #e3d2c3;
+  color: #f9a737;
 }
 
 .nav-comp {
@@ -72,7 +76,7 @@ html {
 
 .nav-comp li a:hover {
   transition: 250ms;
-  color: #e3d2c3;
+  color: #f9a737;
 }
 
 /* Home Container */
@@ -93,7 +97,7 @@ html {
 }
 
 .job {
-  color: #e3d2c3;
+  color: #f9a737;
   margin-bottom: 40px;
 }
 
@@ -105,13 +109,13 @@ html {
 }
 
 .enroll-btn {
-  background-color: #eaeaea;
-  color: #66d2ce;
+  background-color: #ffffff;
+  color: #35a8e0;
 }
 
 .enroll-btn:hover {
-  background-color: #e3d2c3;
-  color: #66d2ce;
+  background-color: #f9a737;
+  color: #ffffff;
 }
 
 .my-image {
@@ -132,7 +136,7 @@ html {
 
 .projects-container {
   padding: 50px;
-  background-color: #66d2ce;
+  background-color: #f9a737;
 }
 
 .project-card .card {
@@ -143,7 +147,7 @@ html {
 }
 
 .card {
-  background-color: #2daa9e;
+  background-color: #35a8e0;
 }
 
 .project-card .card:hover {
@@ -157,7 +161,7 @@ html {
 }
 
 .project-card .card-body {
-  background-color: #2daa9e;
+  background-color: #cb8a2e;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
@@ -195,20 +199,16 @@ html {
   border: 0;
 }
 
-.project-card .btn-primary:hover {
-  background-color: #36cdbe;
-}
-
 /* FAQ container */
 .custom-faq {
-  background-color: #2daa9e;
+  background-color: #35a8e0;
   border-radius: 8px;
   border: none !important;
   margin-bottom: 15px;
 }
 
 .custom-faq-btn {
-  background-color: #66d2ce !important;
+  background-color: #2880ac !important;
   color: white !important;
   border: none !important;
   box-shadow: none !important;
@@ -220,7 +220,7 @@ html {
 }
 
 .custom-faq-body {
-  background-color: #2daa9e;
+  background-color: #35a8e0;
   color: white;
   border-radius: 8px;
 }
@@ -240,7 +240,7 @@ html {
 /* Contact Container */
 
 .contact-container {
-  background-color: #66d2ce !important;
+  background-color: #f9a737 !important;
   padding: 50px !important;
 }
 
@@ -261,7 +261,7 @@ html {
 }
 
 .icon {
-  color: #2daa9e;
+  color: #35a8e0;
   margin-right: 30px;
   transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   display: inline-block;
@@ -277,13 +277,22 @@ html {
   transform: scale(1.1) rotate(0deg);
 }
 
+.enroll-btn-2 {
+  background-color: #ffffff;
+  color: #f9a737;
+}
+
+.enroll-btn-2:hover {
+  background-color: #35a8e0;
+
+}
 /* Button styling */
 .back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   display: none;
-  background-color: #2daa9e;
+  background-color: #35a8e0;
   color: white;
   border: none;
   border-radius: 50%;
@@ -298,7 +307,7 @@ html {
 }
 
 .back-to-top:hover {
-  background-color: #b1eaff;
+  background-color: #f9a737;
 }
 
 .back-to-top i {
